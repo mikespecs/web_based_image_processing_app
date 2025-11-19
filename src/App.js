@@ -86,7 +86,7 @@ function App() {
         <h2>Web Based Image Processing App</h2>
         <p>Transfrom images with blur and edge detection filter sliders!</p>
         <p style={{color: "green"}}>Disclaimer: No AI tools were used in this implementation</p>
-        <p>Documentation Link: <a target='_blank' href='https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas'>MDN Web Docs</a></p>
+        <p>Documentation Link: <a target='_blank' rel="noreferrer" href='https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas'>MDN Web Docs</a></p>
         <input type="file" accept="image/*" onChange={handleFileChange}/>
         <div style={{backgroundColor: "yellow"}}>
           {imageSrc && 
@@ -94,7 +94,7 @@ function App() {
             <div style={{backgroundColor: "transparent", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: "20px", marginTop: "20px"}}>
               <div>            
                 <h4>Original Image Upload</h4>
-                <img id='imported_image' src={imageSrc} alt="Original Image"/>   
+                <img id='imported_image' src={imageSrc}/>   
               </div>
               <div>
                 <h4>Processed Image</h4>
