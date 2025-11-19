@@ -2,6 +2,7 @@
   "name": "web_image_processor",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mikespecs.github.io/web_based_image_processing_app",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
