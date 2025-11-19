@@ -94,7 +94,7 @@ function App() {
             <div style={{backgroundColor: "transparent", display: "flex", flexDirection: "row", alignItems: "center", justifyContent: "center", gap: "20px", marginTop: "20px"}}>
               <div>            
                 <h4>Original Image Upload</h4>
-                <img id='imported_image' src={imageSrc}/>   
+                <img id='imported_image' src={imageSrc} alt=''/>   
               </div>
               <div>
                 <h4>Processed Image</h4>
